@@ -113,16 +113,7 @@ window.addEventListener('scroll', () => {
   }
 });
 
-// Parallax effect for hero section
-window.addEventListener('scroll', () => {
-  const scrolled = window.pageYOffset;
-  const heroImage = document.querySelector('#home img');
-  
-  if (heroImage) {
-    const rate = scrolled * -0.5;
-    heroImage.style.transform = `translateY(${rate}px)`;
-  }
-});
+// Removed parallax effect for hero section - image now stays fixed
 
 // Add loading animation
 window.addEventListener('load', () => {
