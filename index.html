@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jesulino Neto - Portfólio | Licenciando em Ciências Biológicas</title>
+    <meta name="description" content="Portfólio de Jesulino Neto Gomes de Oliveira - Licenciando em Ciências Biológicas, participante do PIBID" />
+    <meta name="author" content="Jesulino Neto Gomes de Oliveira" />
+
+    <meta property="og:title" content="Jesulino Neto - Portfólio" />
+    <meta property="og:description" content="Licenciando em Ciências Biológicas, participante do PIBID" />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-emerald-900">
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 bg-transparent backdrop-blur-sm z-50 border-b border-emerald-800/20 transition-all duration-300" id="header">
+      <nav class="container mx-auto px-6 py-4">
+        <div class="flex items-center justify-between">
+          <div class="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent transform hover:scale-105 transition-transform duration-300">
+            Jesulino Neto
+          </div>
+          
+          <!-- Desktop Navigation -->
+          <div class="hidden md:flex space-x-8">
+            <a href="#home" class="nav-link text-gray-300 hover:text-emerald-400 transition-all duration-300 font-medium relative">Início</a>
+            <a href="#about" class="nav-link text-gray-300 hover:text-emerald-400 transition-all duration-300 font-medium relative">Sobre</a>
+            <a href="#experience" class="nav-link text-gray-300 hover:text-emerald-400 transition-all duration-300 font-medium relative">Experiência</a>
+            <a href="#skills" class="nav-link text-gray-300 hover:text-emerald-400 transition-all duration-300 font-medium relative">Habilidades</a>
+            <a href="#contact" class="nav-link text-gray-300 hover:text-emerald-400 transition-all duration-300 font-medium relative">Contato</a>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <button id="mobile-menu-btn" class="md:hidden text-gray-300 hover:text-emerald-400 transition-colors duration-300">
+            <i data-lucide="menu" class="w-6 h-6"></i>
+          </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="md:hidden mt-4 pb-4 hidden opacity-0 transition-all duration-300">
+          <a href="#home" class="block py-2 text-gray-300 hover:text-emerald-400 transition-colors duration-300 mobile-nav-link">Início</a>
+          <a href="#about" class="block py-2 text-gray-300 hover:text-emerald-400 transition-colors duration-300 mobile-nav-link">Sobre</a>
+          <a href="#experience" class="block py-2 text-gray-300 hover:text-emerald-400 transition-colors duration-300 mobile-nav-link">Experiência</a>
+          <a href="#skills" class="block py-2 text-gray-300 hover:text-emerald-400 transition-colors duration-300 mobile-nav-link">Habilidades</a>
+          <a href="#contact" class="block py-2 text-gray-300 hover:text-emerald-400 transition-colors duration-300 mobile-nav-link">Contato</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center pt-20">
+      <div class="container mx-auto px-6">
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
+          <div class="flex-1 text-center lg:text-left">
+            <h1 class="text-5xl lg:text-7xl font-bold mb-6 fade-in-up">
+              <span class="bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent">
+                Jesulino Neto
+              </span>
+              <br />
+              <span class="text-gray-200 text-3xl lg:text-4xl">
+                Gomes de Oliveira
+              </span>
+            </h1>
+            <p class="text-xl lg:text-2xl text-gray-300 mb-8 fade-in-up delay-100">
+              Licenciando em Ciências Biológicas
+            </p>
+            <p class="text-lg text-gray-400 mb-8 max-w-2xl fade-in-up delay-200">
+              Estudante dedicado com experiência no PIBID, apaixonado por educação e ciências biológicas. 
+              Comprometido com a formação de futuros cidadãos conscientes sobre o meio ambiente.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start fade-in-up delay-300">
+              <a href="#about" class="cta-button bg-gradient-to-r from-emerald-600 to-blue-600 text-white px-8 py-3 rounded-full hover:shadow-lg transform hover:scale-105 transition-all duration-300">
+                Conheça mais
+              </a>
+              <a href="#contact" class="cta-button-outline border-2 border-emerald-400 text-emerald-400 px-8 py-3 rounded-full hover:bg-emerald-600 hover:text-white transition-all duration-300">
+                Entre em contato
+              </a>
+            </div>
+          </div>
+          
+          <div class="flex-1 flex justify-center fade-in-up delay-400">
+            <div class="relative">
+              <div class="w-80 h-96 lg:w-96 lg:h-[450px] rounded-2xl overflow-hidden border-8 border-emerald-400/20 shadow-2xl transform hover:scale-105 transition-all duration-500 hover:shadow-3xl">
+                <img
+                  src="Jesulino.jpeg"
+                  alt="Jesulino Neto Gomes de Oliveira"
+                  class="w-full h-full object-cover object-top hover:scale-110 transition-transform duration-700"
+                />
+              </div>
+              <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg pulse-animation">
+                2003
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="text-center mt-16">
+          <i data-lucide="chevron-down" class="mx-auto text-emerald-400 bounce-animation w-8 h-8"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-800/50">
+      <div class="container mx-auto px-6">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent fade-in-up">
+            Sobre Mim
+          </h2>
+          
+          <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="fade-in-left">
+              <p class="text-lg text-gray-300 mb-6 leading-relaxed hover:text-gray-200 transition-colors duration-300">
+                Sou um estudante dedicado de Ciências Biológicas, nascido em 29 de janeiro de 2003. 
+                Atualmente cursando licenciatura desde 2023, com previsão de conclusão em 2026.
+              </p>
+              <p class="text-lg text-gray-300 mb-6 leading-relaxed hover:text-gray-200 transition-colors duration-300">
+                Minha paixão pela educação e ciências me levou a participar do PIBID (Programa Institucional 
+                de Bolsas de Iniciação à Docência), onde desenvolvo habilidades pedagógicas e contribuo 
+                para a formação científica de estudantes do ensino básico.
+              </p>
+              <p class="text-lg text-gray-300 leading-relaxed hover:text-gray-200 transition-colors duration-300">
+                Além da formação acadêmica, possuo habilitação A/B, demonstrando minha versatilidade 
+                e compromisso com diferentes áreas de desenvolvimento pessoal e profissional.
+              </p>
+            </div>
+            
+            <div class="space-y-6 fade-in-right">
+              <div class="info-card flex items-start space-x-4 p-4 bg-gradient-to-r from-gray-700/50 to-emerald-900/50 rounded-lg border border-emerald-700/30 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                <div class="flex-shrink-0">
+                  <i data-lucide="calendar" class="w-6 h-6 text-emerald-400"></i>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-gray-200 mb-1">Data de Nascimento</h3>
+                  <p class="text-gray-300">29 de Janeiro de 2003</p>
+                </div>
+              </div>
+
+              <div class="info-card flex items-start space-x-4 p-4 bg-gradient-to-r from-gray-700/50 to-emerald-900/50 rounded-lg border border-emerald-700/30 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                <div class="flex-shrink-0">
+                  <i data-lucide="graduation-cap" class="w-6 h-6 text-emerald-400"></i>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-gray-200 mb-1">Formação</h3>
+                  <p class="text-gray-300">Licenciatura em Ciências Biológicas</p>
+                </div>
+              </div>
+
+              <div class="info-card flex items-start space-x-4 p-4 bg-gradient-to-r from-gray-700/50 to-emerald-900/50 rounded-lg border border-emerald-700/30 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                <div class="flex-shrink-0">
+                  <i data-lucide="calendar" class="w-6 h-6 text-emerald-400"></i>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-gray-200 mb-1">Período do Curso</h3>
+                  <p class="text-gray-300">Início em 2023 - Previsão 2026</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-gradient-to-br from-gray-900/50 to-emerald-900/30">
+      <div class="container mx-auto px-6">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent fade-in-up">
+            Experiência & Qualificações
+          </h2>
+          
+          <div class="grid lg:grid-cols-2 gap-8">
+            <div class="experience-card bg-gray-800/70 rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 fade-in-left border border-emerald-700/30">
+              <div class="flex items-center mb-6">
+                <div class="w-12 h-12 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-lg flex items-center justify-center mr-4 hover:scale-110 transition-transform duration-300">
+                  <i data-lucide="book-open" class="w-6 h-6 text-white"></i>
+                </div>
+                <h3 class="text-xl font-bold text-gray-200">PIBID - Programa Institucional de Bolsas de Iniciação à Docência</h3>
+              </div>
+              
+              <p class="text-gray-300 mb-6 leading-relaxed">Participação ativa no programa que promove a iniciação à docência, contribuindo para a melhoria da formação de professores e para a elevação da qualidade da escola pública.</p>
+              
+              <div class="space-y-3">
+                <h4 class="font-semibold text-gray-200 flex items-center">
+                  <i data-lucide="users" class="w-4 h-4 mr-2 text-emerald-400"></i>
+                  Principais atividades:
+                </h4>
+                <ul class="space-y-2">
+                  <li class="flex items-center text-gray-300 hover:text-emerald-400 transition-colors duration-300">
+                    <div class="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
+                    Desenvolvimento de atividades pedagógicas
+                  </li>
+                  <li class="flex items-center text-gray-300 hover:text-emerald-400 transition-colors duration-300">
+                    <div class="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
+                    Experiência prática em sala de aula
+                  </li>
+                  <li class="flex items-center text-gray-300 hover:text-emerald-400 transition-colors duration-300">
+                    <div class="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
+                    Elaboração de materiais didáticos
+                  </li>
+                  <li class="flex items-center text-gray-300 hover:text-emerald-400 transition-colors duration-300">
+                    <div class="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
+                    Trabalho colaborativo com professores
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="experience-card bg-gray-800/70 rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 fade-in-right border border-emerald-700/30">
+              <div class="flex items-center mb-6">
+                <div class="w-12 h-12 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-lg flex items-center justify-center mr-4 hover:scale-110 transition-transform duration-300">
+                  <i data-lucide="award" class="w-6 h-6 text-white"></i>
+                </div>
+                <h3 class="text-xl font-bold text-gray-200">Habilitação A/B</h3>
+              </div>
+              
+              <p class="text-gray-300 mb-6 leading-relaxed">Qualificação para condução de veículos, demonstrando responsabilidade e capacidade de adaptação a diferentes contextos.</p>
+              
+              <div class="space-y-3">
+                <h4 class="font-semibold text-gray-200 flex items-center">
+                  <i data-lucide="users" class="w-4 h-4 mr-2 text-emerald-400"></i>
+                  Principais atividades:
+                </h4>
+                <ul class="space-y-2">
+                  <li class="flex items-center text-gray-300 hover:text-emerald-400 transition-colors duration-300">
+                    <div class="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
+                    Responsabilidade no trânsito
+                  </li>
+                  <li class="flex items-center text-gray-300 hover:text-emerald-400 transition-colors duration-300">
+                    <div class="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
+                    Capacidade de planejamento
+                  </li>
+                  <li class="flex items-center text-gray-300 hover:text-emerald-400 transition-colors duration-300">
+                    <div class="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
+                    Pontualidade e organização
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-800/50">
+      <div class="container mx-auto px-6">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent fade-in-up">
+            Habilidades & Competências
+          </h2>
+          
+          <div class="grid lg:grid-cols-2 gap-12">
+            <!-- Technical Skills -->
+            <div class="fade-in-left">
+              <h3 class="text-2xl font-bold text-gray-200 mb-8">Competências Técnicas</h3>
+              <div class="space-y-6">
+                <div class="skill-item bg-gradient-to-r from-gray-700/50 to-emerald-900/50 p-6 rounded-lg border border-emerald-700/30 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                  <div class="flex items-center mb-3">
+                    <i data-lucide="microscope" class="w-6 h-6 text-emerald-400 mr-3"></i>
+                    <h4 class="font-semibold text-gray-200">Ciências Biológicas</h4>
+                  </div>
+                  <p class="text-gray-300 mb-4">Conhecimentos sólidos em biologia, ecologia e meio ambiente</p>
+                  <div class="w-full bg-gray-600 rounded-full h-2">
+                    <div class="progress-bar bg-gradient-to-r from-emerald-400 to-blue-400 h-2 rounded-full transition-all duration-1000" data-width="85"></div>
+                  </div>
+                  <span class="text-sm text-gray-400 mt-1 block">85%</span>
+                </div>
+
+                <div class="skill-item bg-gradient-to-r from-gray-700/50 to-emerald-900/50 p-6 rounded-lg border border-emerald-700/30 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                  <div class="flex items-center mb-3">
+                    <i data-lucide="book-open" class="w-6 h-6 text-emerald-400 mr-3"></i>
+                    <h4 class="font-semibold text-gray-200">Educação e Ensino</h4>
+                  </div>
+                  <p class="text-gray-300 mb-4">Experiência pedagógica através do PIBID</p>
+                  <div class="w-full bg-gray-600 rounded-full h-2">
+                    <div class="progress-bar bg-gradient-to-r from-emerald-400 to-blue-400 h-2 rounded-full transition-all duration-1000" data-width="80"></div>
+                  </div>
+                  <span class="text-sm text-gray-400 mt-1 block">80%</span>
+                </div>
+
+                <div class="skill-item bg-gradient-to-r from-gray-700/50 to-emerald-900/50 p-6 rounded-lg border border-emerald-700/30 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                  <div class="flex items-center mb-3">
+                    <i data-lucide="users" class="w-6 h-6 text-emerald-400 mr-3"></i>
+                    <h4 class="font-semibold text-gray-200">Trabalho em Equipe</h4>
+                  </div>
+                  <p class="text-gray-300 mb-4">Colaboração efetiva em projetos educacionais</p>
+                  <div class="w-full bg-gray-600 rounded-full h-2">
+                    <div class="progress-bar bg-gradient-to-r from-emerald-400 to-blue-400 h-2 rounded-full transition-all duration-1000" data-width="90"></div>
+                  </div>
+                  <span class="text-sm text-gray-400 mt-1 block">90%</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Personal Qualities -->
+            <div class="fade-in-right">
+              <h3 class="text-2xl font-bold text-gray-200 mb-8">Qualidades Pessoais</h3>
+              <div class="bg-gradient-to-br from-gray-700/50 to-emerald-900/50 p-8 rounded-lg border border-emerald-700/30">
+                <div class="grid gap-4">
+                  <div class="quality-item flex items-center p-4 bg-gray-800/50 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-3 h-3 bg-gradient-to-r from-emerald-400 to-blue-400 rounded-full mr-4"></div>
+                    <span class="text-gray-300 font-medium">Responsável e pontual</span>
+                  </div>
+                  <div class="quality-item flex items-center p-4 bg-gray-800/50 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-3 h-3 bg-gradient-to-r from-emerald-400 to-blue-400 rounded-full mr-4"></div>
+                    <span class="text-gray-300 font-medium">Comunicativo e empático</span>
+                  </div>
+                  <div class="quality-item flex items-center p-4 bg-gray-800/50 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-3 h-3 bg-gradient-to-r from-emerald-400 to-blue-400 rounded-full mr-4"></div>
+                    <span class="text-gray-300 font-medium">Criativo na resolução de problemas</span>
+                  </div>
+                  <div class="quality-item flex items-center p-4 bg-gray-800/50 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-3 h-3 bg-gradient-to-r from-emerald-400 to-blue-400 rounded-full mr-4"></div>
+                    <span class="text-gray-300 font-medium">Comprometido com a aprendizagem contínua</span>
+                  </div>
+                  <div class="quality-item flex items-center p-4 bg-gray-800/50 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-3 h-3 bg-gradient-to-r from-emerald-400 to-blue-400 rounded-full mr-4"></div>
+                    <span class="text-gray-300 font-medium">Adaptável a novos desafios</span>
+                  </div>
+                  <div class="quality-item flex items-center p-4 bg-gray-800/50 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-3 h-3 bg-gradient-to-r from-emerald-400 to-blue-400 rounded-full mr-4"></div>
+                    <span class="text-gray-300 font-medium">Líder natural em projetos colaborativos</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-8 p-6 bg-gradient-to-r from-emerald-600 to-blue-600 rounded-lg text-white hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <h4 class="text-xl font-bold mb-3">Objetivo Profissional</h4>
+                <p class="leading-relaxed">
+                  Contribuir para a educação brasileira através do ensino de ciências biológicas, 
+                  formando cidadãos conscientes sobre a importância da preservação ambiental e 
+                  do conhecimento científico para o desenvolvimento sustentável.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-br from-gray-900/50 to-emerald-900/30">
+      <div class="container mx-auto px-6">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent">
+            Entre em Contato
+          </h2>
+          
+          <div class="grid md:grid-cols-2 gap-12">
+            <div>
+              <h3 class="text-2xl font-bold text-gray-200 mb-6">Vamos conversar!</h3>
+              <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                Estou sempre aberto a novas oportunidades, projetos colaborativos e 
+                discussões sobre educação e ciências biológicas. Entre em contato!
+              </p>
+              
+              <div class="space-y-4">
+                <div class="flex items-center p-4 bg-gray-800/70 rounded-lg shadow-sm border border-emerald-700/30">
+                  <i data-lucide="mail" class="w-6 h-6 text-emerald-400 mr-4"></i>
+                  <div>
+                    <span class="text-gray-400 text-sm">Email</span>
+                    <p class="text-gray-200 font-medium">jesulino.bio@email.com</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-center p-4 bg-gray-800/70 rounded-lg shadow-sm border border-emerald-700/30">
+                  <i data-lucide="phone" class="w-6 h-6 text-emerald-400 mr-4"></i>
+                  <div>
+                    <span class="text-gray-400 text-sm">WhatsApp</span>
+                    <p class="text-gray-200 font-medium">+55 69 9962-3760</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-center p-4 bg-gray-800/70 rounded-lg shadow-sm border border-emerald-700/30">
+                  <i data-lucide="map-pin" class="w-6 h-6 text-emerald-400 mr-4"></i>
+                  <div>
+                    <span class="text-gray-400 text-sm">Localização</span>
+                    <p class="text-gray-200 font-medium">Brasil</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="mt-8">
+                <h4 class="text-lg font-semibold text-gray-200 mb-4">Redes Sociais</h4>
+                <div class="flex space-x-4">
+                  <a href="https://www.facebook.com/jesulino.neto.5" target="_blank" rel="noopener noreferrer" class="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-white hover:shadow-lg transform hover:scale-110 transition-all duration-300">
+                    <i data-lucide="facebook" class="w-5 h-5"></i>
+                  </a>
+                  <a href="https://www.instagram.com/jesulino_neto/" target="_blank" rel="noopener noreferrer" class="w-12 h-12 bg-gradient-to-r from-pink-500 to-pink-600 rounded-full flex items-center justify-center text-white hover:shadow-lg transform hover:scale-110 transition-all duration-300">
+                    <i data-lucide="instagram" class="w-5 h-5"></i>
+                  </a>
+                  <a href="https://wa.me/5569996237 60" target="_blank" rel="noopener noreferrer" class="w-12 h-12 bg-gradient-to-r from-green-500 to-green-600 rounded-full flex items-center justify-center text-white hover:shadow-lg transform hover:scale-110 transition-all duration-300">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.886 3.488"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="bg-gray-800/70 rounded-xl shadow-lg p-8 border border-emerald-700/30">
+              <h3 class="text-xl font-bold text-gray-200 mb-6">Envie uma mensagem</h3>
+              <form class="space-y-4">
+                <div>
+                  <label class="block text-gray-300 font-medium mb-2">Nome</label>
+                  <input
+                    type="text"
+                    class="w-full px-4 py-3 border border-gray-600 rounded-lg bg-gray-700/50 text-gray-200 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-transparent"
+                    placeholder="Seu nome"
+                  />
+                </div>
+                <div>
+                  <label class="block text-gray-300 font-medium mb-2">Email</label>
+                  <input
+                    type="email"
+                    class="w-full px-4 py-3 border border-gray-600 rounded-lg bg-gray-700/50 text-gray-200 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-transparent"
+                    placeholder="seu@email.com"
+                  />
+                </div>
+                <div>
+                  <label class="block text-gray-300 font-medium mb-2">Mensagem</label>
+                  <textarea
+                    rows={4}
+                    class="w-full px-4 py-3 border border-gray-600 rounded-lg bg-gray-700/50 text-gray-200 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-transparent"
+                    placeholder="Sua mensagem..."
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="w-full bg-gradient-to-r from-emerald-600 to-blue-600 text-white py-3 rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300 font-medium"
+                >
+                  Enviar Mensagem
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="container mx-auto px-6">
+        <div class="text-center">
+          <div class="text-3xl font-bold mb-4 bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent">
+            Jesulino Neto Gomes de Oliveira
+          </div>
+          <p class="text-gray-400 mb-6">
+            Licenciando em Ciências Biológicas | Participante do PIBID
+          </p>
+          <div class="flex items-center justify-center text-gray-400">
+            <span>Feito com</span>
+            <i data-lucide="heart" class="w-4 h-4 mx-2 text-red-500"></i>
+            <span>para a educação e ciência</span>
+          </div>
+          <div class="mt-4 text-sm text-gray-500">
+            © 2024 Jesulino Neto. Todos os direitos reservados.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
